@@ -1,0 +1,150 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/*--backend setting styles--*/
+.author-box-settings-boxed form {
+    background: #fff;
+    padding: 15px  15px 0 ;
+    border: 1px solid #ccc;
+}
+.author-box-settings-boxed .form-table th{
+    font-size: 13px;
+}
+.author-box-settings-boxed p.submit {
+    text-align: right;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.ab-setting-wrap {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: #f1f1f1;
+}
+.ab-settings.author-box-settings-boxed h1 {
+    padding: 6px 5px;
+    background: #fafafa;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.nav-tab-active, 
+.nav-tab-active:focus, 
+.nav-tab-active:focus:active,
+ .nav-tab-active:hover{
+    box-shadow: none;
+ }
+
+span.description {
+    color: #777;
+}
+.ab-theme-option span {
+    background: #0073AA !important;
+    color: #fff;
+    display: block;
+    padding: 3px 10px;
+    margin-top: -4px;
+    font-weight: normal;
+    width: 87px;
+}
+.ab-theme-option input{
+    display: none;
+}
+.ab-theme-option input[type=radio] + label img {
+  color: #ccc;
+  font-style: italic;
+  border: 4px solid #ddd;
+  opacity: 0.6;
+  height: 100px;
+  width: 100px;
+}
+
+.ab-theme-option input[type=radio]:checked + label img {
+  color: #f00;
+  font-style: normal;
+  background: red;
+  border: 4px solid #bebebe;
+  opacity: 1;
+} 
+/*--- accordion--*/
+div#ab-accordion {
+    position: relative;
+    float: left;
+    width: 81%;
+}
+h3.ui-accordion-header {
+    background: #e5e5e5;
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 60%;
+    position: relative;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-weight: normal;
+}
+h3.ui-accordion-header:focus{
+    outline: 0;
+    box-shadow:none;
+}
+h3.ui-accordion-header.ui-state-default:after{
+    content: "\f140";
+    font-family: dashicons;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+h3.ui-accordion-header.ui-state-active:after{
+    content: "\f142";
+    font-family: dashicons;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+table.form-table.append-table {
+    margin: 0;
+    margin-bottom: 20px;
+}
+.ui-accordion-content{
+    margin: 0;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    width: 573px;  
+   border: 1px solid #ccc;
+   border-top: 0;
+   position: relative;
+}
+p.ab-btn-append{
+    text-align: right;
+    margin-right: 20px;
+}
+tr.ab-social-td {
+    border-bottom: 1px solid #ddd;
+}
+a.ab-remove:before{
+   content: "\f153";
+   font-family: dashicons;
+   cursor: pointer;
+   position: absolute;
+   right: 10px;
+   font-size: 20px;  
+}
+table.form-table.append-table span.description{
+ color: #777;
+ display: block;
+ margin-top: 8px;
+}
+tr.ab-template-row td{
+    float:left;
+}
+div#ui-id-2 {
+    height: auto !important;
+}
+h3.social-head {
+    display: inline-block;
+    float: left;
+    width: 19%;
+    font-weight: 600;
+    font-size: 14px;
+}
